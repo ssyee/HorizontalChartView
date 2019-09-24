@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.open.charview.HorizontalChartView
+        android:id="@+id/ch_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:columnColor="@color/colorPrimary"
+        app:columnHeight="8dp"
+        app:leftFontSize="16sp"
+        app:leftFontSpace="50dp"
+        app:lineColor="@android:color/darker_gray"
+        app:lineNum="6"
+        app:lineSize="2dp"
+        app:rightFontColor="@color/colorPrimary"
+        app:rightFontSize="16sp"
+        app:rightFontSpace="6dp"
+        app:rowSpace="10dp"
+        app:rowSpaceMode="multiple" />
+</LinearLayout>

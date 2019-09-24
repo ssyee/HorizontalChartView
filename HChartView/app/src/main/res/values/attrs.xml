@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalChartView">
+        <attr name="lineSize" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="columnHeight" format="dimension" />
+        <attr name="columnColor" format="color" />
+        <attr name="leftFontSize" format="dimension" />
+        <attr name="leftFontColor" format="color" />
+        <attr name="leftFontSpace" format="dimension" />
+        <attr name="rightFontSize" format="dimension" />
+        <attr name="rightFontColor" format="color" />
+        <attr name="rightFontSpace" format="dimension" />
+        <attr name="bottomFontSize" format="dimension" />
+        <attr name="bottomFontColor" format="color" />
+        <attr name="lineNum" format="integer" />
+        <attr name="rowSpace" format="dimension" />
+        <attr name="rowSpaceMode" format="enum">
+            <enum name="single" value="1" />
+            <enum name="multiple" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
