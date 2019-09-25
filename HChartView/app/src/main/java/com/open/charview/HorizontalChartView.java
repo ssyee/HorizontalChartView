@@ -296,11 +296,12 @@ public class HorizontalChartView extends View {
             this.mChartList = list;
         }
         mMaxScore = getMaxScore(list);
+        setMaxScore(mMaxScore);
         getFillerHeight();
     }
 
     /**
-     * 降序排列取出最大值,用于计算柱状图最大长度
+     * 取出最大值,用于计算柱状图最大长度
      *
      * @param list
      * @return
@@ -321,5 +322,14 @@ public class HorizontalChartView extends View {
             return maxScroe;
         }
         return 1;
+    }
+
+    /**
+     * 设置最大值
+     *
+     * @param score
+     */
+    public void setMaxScore(float score) {
+        this.mMaxScore = score;
     }
 }
