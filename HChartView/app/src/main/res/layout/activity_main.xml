@@ -15,7 +15,7 @@
         app:columnColor="@color/colorPrimary"
         app:columnHeight="8dp"
         app:leftFontSize="16sp"
-        app:leftFontSpace="50dp"
+        app:leftFontSpace="10dp"
         app:lineColor="@android:color/darker_gray"
         app:lineNum="6"
         app:lineSize="2dp"

@@ -97,7 +97,7 @@ public class HorizontalChartView extends View {
         mRightFontSize = attr.getDimensionPixelSize(R.styleable.HorizontalChartView_rightFontSize, 44);
         mRightFontColor = attr.getColor(R.styleable.HorizontalChartView_rightFontColor, 0xFF666666);
         mRightFontSpace = attr.getDimensionPixelSize(R.styleable.HorizontalChartView_rightFontSpace, 10);
-        mLeftFontSpace = attr.getDimensionPixelSize(R.styleable.HorizontalChartView_rightFontSpace, 10);
+        mLeftFontSpace = attr.getDimensionPixelSize(R.styleable.HorizontalChartView_leftFontSpace, 10);
         mBottomFontSize = attr.getDimensionPixelSize(R.styleable.HorizontalChartView_bottomFontSize, 41);
         mBottomFontColor = attr.getColor(R.styleable.HorizontalChartView_bottomFontColor, 0xFF666666);
         mLineNum = attr.getInteger(R.styleable.HorizontalChartView_lineNum, mLineNum);
@@ -295,8 +295,7 @@ public class HorizontalChartView extends View {
         if (list != null) {
             this.mChartList = list;
         }
-        mMaxScore = getMaxScore(list);
-        setMaxScore(mMaxScore);
+        setMaxScore(getMaxScore(list));
         getFillerHeight();
     }
 
